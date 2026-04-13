@@ -240,7 +240,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 **Nikola Kotlaja**
 - GitHub: [@nikolakotlaja25-web](https://github.com/nikolakotlaja25-web)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- LinkedIn: [Nikola Kotlaja](https://www.linkedin.com/in/nikola-kotlaja-3a198b238/)
 
 ---
 
