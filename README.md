@@ -21,22 +21,20 @@ Professional Power BI dashboard for sales analysis with realistic data. The proj
 ```
 sales-analytics-powerbi/
 │
+├── .gitignore                         # Git ignore rules
+├── LICENSE                            # MIT License
+├── README.md                          # Project documentation
+│
 ├── Data/
-│   └── SalesData.xlsx          # 3 sheets: Sales_Data, Products, Customers
+│   └── SalesData.xlsx                 # Excel file with 3 sheets
 │
 ├── Reports/
-│   └── SalesAnalytics.pbix     # Power BI dashboard (1.98 MB) - Download and open!
+│   └── SalesAnalytics.pbix            # Power BI dashboard (1.98 MB)
 │
-├── Screenshots/
-│   ├── page1_sales_overview.png       # Page 1 screenshot
-│   ├── page2_product_analysis.png     # Page 2 screenshot
-│   └── page3_customer_insights.png    # Page 3 screenshot
-│
-├── Documentation/
-│   ├── DAX_Formulas.md         # DAX formulas documentation
-│   └── Setup_Guide.md          # Setup instructions
-│
-└── README.md
+└── Screenshots/
+    ├── page1_sales_overview.png       # Sales Overview page
+    ├── page2_product_analysis.png     # Product Analysis page
+    └── page3_customer_insights.png    # Customer Insights page
 ```
 
 ---
@@ -68,16 +66,16 @@ git clone https://github.com/nikolakotlaja25-web/sales-analytics-powerbi.git
 cd sales-analytics-powerbi
 ```
 
-2. **Follow the setup guide:**
-   - Open [Setup_Guide.md](Documentation/Setup_Guide.md)
-   - Load data from `Data/SalesData.xlsx`
-   - Create relationships and DAX measures
-   - Build all 3 dashboard pages
+2. **Load the data:**
+   - Open Power BI Desktop
+   - Get Data → Excel
+   - Select `Data/SalesData.xlsx`
+   - Load all 3 sheets: Sales_Data, Products, Customers
 
-3. **Compare with the original:**
-   - Open `Reports/SalesAnalytics.pbix` to see the final result
-   - Compare your DAX formulas
-   - Check visualization layouts
+3. **Create the data model:**
+   - Build relationships between tables
+   - Create DAX measures
+   - Design visualizations
 
 ---
 
@@ -152,8 +150,6 @@ CALCULATE(
 )
 ```
 
-Full DAX formulas documentation: [DAX_Formulas.md](Documentation/DAX_Formulas.md)
-
 ---
 
 ## 📈 Dashboard Pages
@@ -215,15 +211,16 @@ Full DAX formulas documentation: [DAX_Formulas.md](Documentation/DAX_Formulas.md
 ![Customer Insights](Screenshots/page3_customer_insights.png)
 *Top customers, geographic distribution, and sales by category matrix*
 
-*Screenshots will be added after creating the dashboard in Power BI Desktop*
-
 ---
 
-## 📝 Versions
+## 📝 Features
 
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0 | April 2024 | Initial version with 100 transactions |
+- ✅ Interactive filtering across all pages
+- ✅ Dynamic DAX calculations
+- ✅ Geographic visualization
+- ✅ Trend analysis over time
+- ✅ Profitability metrics
+- ✅ Customer segmentation
 
 ---
 
