@@ -1,0 +1,32 @@
+# Power BI temporary files
+*.pbix.tmp
+*.pbix~
+
+# NOTE: .pbix files ARE allowed in this repo (file is only 1.98 MB)
+# The main dashboard file Reports/SalesAnalytics.pbix will be uploaded
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Python (if used for data generation)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
